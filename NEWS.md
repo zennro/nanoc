@@ -1,5 +1,11 @@
 # nanoc news
 
+## 3.7.5 (???)
+
+Enhancements:
+
+* Allowed extra patterns to be specified in the data source configuration, so that dotfiles are no longer necessary ignored (e.g. `extra_files: ['.htaccess']`) (#492, #498) [Andy Drop, Michal Papis]
+
 ## 3.7.4 (2014-11-23)
 
 Enhancements:
