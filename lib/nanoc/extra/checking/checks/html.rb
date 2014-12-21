@@ -14,7 +14,7 @@ module ::Nanoc::Extra::Checking::Checks
           line_num = e.line.to_i - 1
           line = lines[line_num]
           message = e.message.gsub(%r{\s+}, ' ').strip.sub(/\s+:$/, '')
-          desc = "line #{line_num+1}: #{message}: #{line}"
+          desc = "line #{line_num + 1}: #{message}: #{line}"
           add_issue(desc, :subject => filename)
         end
       end
